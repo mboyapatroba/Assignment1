@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>About</title>
+    <body>
+    <section class="neww">
+        <h2>About Us</h2>
+        <p>Welcome to Cossy Knitted Sweaters! We are dedicated to providing you with the warmest and most stylish knitted sweaters. Our passion for knitting combines with high-quality materials to ensure that you feel as good as you look.</p>
+        <p>Our team of skilled artisans handcraft each piece, making sure that every sweater is unique. We believe in sustainability and use eco-friendly yarns to create our beautiful designs.</p>
+    </section>
+
+    <section class="neww">
+        <h2>Reach Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Subscribe to our newsletter
+            </label>
+
+            <fieldset>
+                <legend>Preferred Contact Method:</legend>
+                <label>
+                    <input type="radio" name="contact-method" value="email" checked>
+                    Email
+                </label>
+                <label>
+                    <input type="radio" name="contact-method" value="phone">
+                    Phone
+                </label>
+            </fieldset>
+
+            <label for="feedback">Feedback Rating:</label>
+            <select id="feedback" name="feedback">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="file-upload">Upload a File:</label>
+            <input type="file" id="file-upload" name="file-upload">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+<footer>
+    <p>&copy; 2024 Cossy Knitted Sweaters. All rights reserved.</p>
+</footer>
+</head>
+
+    
+</body>
+</html>

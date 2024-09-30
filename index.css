@@ -1,0 +1,214 @@
+body {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(23, 26, 37, 0.3),rgba(9, 11, 17,0.3 )),url(images/pexels-pavel-danilyuk-5789014.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav img{
+    width: 100px;
+}
+nav li{
+    display: inline;
+    padding: 20px;
+}
+nav ul{
+    float: right;
+    padding: 24px 15px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+}
+nav a:hover{
+    color: brown;
+}
+#contact-us{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px;
+}
+.text-box{
+    width: 50%;
+    text-align: center;
+    margin-top:13%;
+    padding: 0 20px;
+}
+.text-box h1{
+    font-size: 55px;
+    font-weight: normal;
+    text-align: start;
+    margin-left: 40px;
+}
+.text-box h1 strong{
+color: rgba(255, 0, 0, 0.766);
+}
+.text-box p{
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+
+
+.container2 {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-description {
+    margin-bottom: 20px;
+}
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(250, 15, 15,0.9);
+}
+
+
+
+.container3 {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-description {
+    margin-bottom: 20px;
+}
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(250, 15, 15,0.9);
+}
+.enquiry-form {
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group textarea {
+    height: 100px;
+}
+.form-group button {
+    padding: 10px 20px;
+    background-color: rgb(250, 15, 15,0.9);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #de0a0a;
+}
+
+
+
+/* About css */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    width: 70%;
+    margin-left: 150px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color:   rgb(250, 15, 15,0.9);;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  rgb(250, 15, 15,0.9);;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color:   rgb(250, 15, 15,0.9);;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.neww h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.neww p{
+    font-size: 16px;
+    margin-left: 30px;
+
+}
+
+
+
